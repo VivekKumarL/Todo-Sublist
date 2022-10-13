@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+/* html {
+    font-size: 62.5%;
+}
+
+.main-div{
+    min-height: 100vh;
+    background: #060822;
+    display: flex;
+    justify-content: center;
+    color: white;
+} */
+
+
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 20px;
+    
+}
+
+.child-div{
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    border-radius: 8px;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    align-items: center;
+    text-align: center;
+
+   
+}
+
+img{
+    margin: 3px;
+}
+
+figcaption {
+    margin: 10px;
+}
+
+input {
+    color: #343232;
+    width: 70%;
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+
+.eachItem {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: start;
+}
+
+.showItems{
+    padding-left: 30px;
+}
+
+.SubaddItems {
+    
+}
